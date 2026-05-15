@@ -1,6 +1,6 @@
-from noticias import adicionar_noticia, listar_noticias
-from classificacao import classificacao_manual, classificacao_automatica
-from utils import ler_novo_texto
+from src.noticias import adicionar_noticia, listar_noticias
+from src.classificacao import classificacao_manual, classificacao_automatica
+from src.utils import ler_novo_texto
 
 def menu_principal():
     """

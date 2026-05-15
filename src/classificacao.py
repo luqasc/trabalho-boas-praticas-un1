@@ -25,12 +25,15 @@ def classificacao_automatica(texto):
     # Pontuação de suspeição da notícia
     suspicion_score = 0
 
+    # Padronização do texto para facilitar a checagem de critérios
+    texto_maiusculo = texto.upper()
+
     # Checagem de critérios
-    if "FONTE" not in texto:
+    if "FONTE" not in texto_maiusculo:
         suspicion_score = suspicion_score + 1
-    if "!!!" in texto:
+    if "!!!" in texto_maiusculo:
         suspicion_score = suspicion_score + 1
-    if "URGENTE" in texto:
+    if "URGENTE" in texto_maiusculo:
         suspicion_score = suspicion_score + 1
     if len(texto) < 10:
         suspicion_score = suspicion_score + 1
