@@ -21,7 +21,7 @@ A classificação automática utiliza critérios simples de suspeição baseados
 # Estrutura do Projeto
 
 ```text
-trabalho-boas-praticas-un1/s
+trabalho-boas-praticas-un1/
 │
 ├── main.py
 │
