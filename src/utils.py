@@ -1,12 +1,18 @@
 def ler_novo_texto():
     """
-    Recebe e valida novos textos inseridos pelo usuário.
-    Não aceita textos vazios.
+    Solicita ao usuário o texto de uma notícia.
+
+    A função valida a entrada e não permite textos vazios
+    ou compostos apenas por espaços em branco.
+
+    Retorno:
+        str:
+            Texto válido digitado pelo usuário.
     """
-    while(True):
+    while True:
         texto = input("Digite o texto: ")
 
-        # Validação do texto digitado (não pode ser vazio)
+        # Validação do texto digitado
         if texto.strip() != "":
             return texto
         else:
