@@ -21,7 +21,7 @@ A classificação automática utiliza critérios simples de suspeição baseados
 # Estrutura do Projeto
 
 ```text
-projeto_fake_news/
+projeto_fake_news/s
 │
 ├── main.py
 │
@@ -91,7 +91,7 @@ O sistema permite visualizar:
 ## 1. Clone o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/luqasc/trabalho-boas-praticas-un1.git
 ```
 
 ---
@@ -128,3 +128,10 @@ URGENTE!!! Vacina causa mutação alienígena
 Classificação atribuída:
 falsa
 ```
+
+---
+
+# Autor
+
+Lucas Cunha de Azevedo
+Projeto desenvolvido para fins acadêmicos.
